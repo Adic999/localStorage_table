@@ -112,11 +112,18 @@ tbody>:nth-child(odd){
 @media all and (max-width: 500px){
     .submit-btn{
         width: 75%;
+        margin-top: 10%;
     }
 
     #name, #contact, #email {
         width: 100px;
         margin-left: 5px;
+    }
+
+    .table-container{
+        width: 90%;
+        left: 5%;
+        overflow: hidden;
     }
     
 
