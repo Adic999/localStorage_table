@@ -5,9 +5,14 @@
     font-family:Helvetica, sans-serif;
 }
 
+html {
+    height: -webkit-fill-available;
+}
+
 body{
     position: relative;
     height: 100vh;
+    height: -webkit-fill-available;
 }
 
 .table-container{
@@ -109,6 +114,7 @@ tbody>:nth-child(odd){
     color: white;
 }
 
+
 @media all and (max-width: 500px){
     .submit-btn{
         width: 50%;
@@ -117,20 +123,21 @@ tbody>:nth-child(odd){
 
     #name, #contact, #email {
         width: 60%;
+        height: 70%;
         margin-left: 5px;
     }
 
     .table-container{
         width: 90%;
         left: 5%;
-        overflow: hidden;
+        overflow-y:scroll ;
     }
 
     .form-container{
         left: 5%;
         width: 90%;
-        bottom: 5%;
-        height: 30vh;
+        bottom: 4%;
+        height: 25vh;
     }
 
     .form{
