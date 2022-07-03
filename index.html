@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="nav-title">LOCAL STORAGE TABLE</h1>
+    </nav>
+    <div class="table-container">
+      <table class="table">
+        <thead class="table-heading">
+          <tr class="heading-row">
+            <th class="heading-title">Name</th>
+            <th class="heading-title">Contact</th>
+            <th class="heading-title">Email</th>
+            <th class="heading-title">Delete</th>
+          </tr>
+        </thead>
+        <tbody class="table-body"></tbody>
+      </table>
+    </div>
+    <div class="form-container">
+      <form class="form">
+        <div class="name-div">
+          <label for="name" class="name">Name</label>
+          <input type="text" name="name-input" id="name" required />
+        </div>
+        <div class="contact-div">
+          <label for="contact" class="contact">Contact</label>
+          <input type="text" name="contact-input" id="contact" required />
+        </div>
+        <div class="email-div">
+          <label for="email" class="email">Email</label>
+          <input type="email" name="email-input" id="email" required />
+        </div>
+        <input class="submit-btn" type="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="noti-sec"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
