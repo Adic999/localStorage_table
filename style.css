@@ -108,3 +108,16 @@ tbody>:nth-child(odd){
     background-color: red;
     color: white;
 }
+
+@media all and (max-width: 500px){
+    .submit-btn{
+        width: 75%;
+    }
+
+    #name, #contact, #email {
+        width: 100px;
+        margin-left: 5px;
+    }
+    
+
+}
