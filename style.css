@@ -52,6 +52,7 @@ tbody>:nth-child(odd){
 #name, #contact, #email {
     width: 70%;
     height: 70%;
+    border: 1px solid black;
 }
 .submit-btn{
     margin-top: 2%;
@@ -62,6 +63,7 @@ tbody>:nth-child(odd){
     color: white;
     position: relative;
     left: 37.5%;
+    font-size: large;
 }
 
 .form > div{
